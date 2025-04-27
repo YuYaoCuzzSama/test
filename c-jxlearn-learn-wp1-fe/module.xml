@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="c-jxlearn-learn-wp1-fe" description="c-jxlearn-learn-wp1-前端">
+  <nginx_mode>mdf</nginx_mode>
+</module>
