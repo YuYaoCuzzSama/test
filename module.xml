@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module description="wp1" name="c-jxlearn-learn-wp1">
+    <service_type>sql</service_type>
+</module>
