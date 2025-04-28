@@ -51,6 +51,24 @@
         </dependencies>
     </dependencyManagement>
 
+
+    <!--Maven仓库配置-->
+    <repositories>
+        <repository>
+            <id>yygoy-yondif-public</id>
+            <url>http://192.168.1.212:10005/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <!--2024-01-25 Added by Bird -->
+        <pluginRepository>
+            <id>yygoy-yondif-public</id>
+            <url>http://192.168.1.212:10005/nexus/content/repositories/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+
     <build>
         <plugins>
             <!-- compiler插件, 设定JDK版本 -->
